@@ -15,6 +15,8 @@ Hi there! My name is Jacob Woods and I am a IT freshman at the Univeristy of Mis
 3. Smoked Salmon
 4. Iced Coffee 
 
+* My favorite place to eat in Comubia is Sparky's*
+
 ## FIZZBUZZ FUNCTION 
 
 ````
