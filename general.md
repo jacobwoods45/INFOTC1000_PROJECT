@@ -1,6 +1,6 @@
 # Hi There! My Name is Jacob Woods
 
-![me!](me.jpg)
+> ![](ME.jpg)
 
 Hi there! My name is Jacob Woods and I am a IT freshman at the Univeristy of Missouri in Columbia, Missouri. **I abosolutely love coding** In addition I have an interest in **aviation**. 
 
