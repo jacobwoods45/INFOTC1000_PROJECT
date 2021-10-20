@@ -14,13 +14,8 @@ Hi there! My name is Jacob Woods and I am a IT freshman at the Univeristy of Mis
 4. Iced Coffee 
 
 ## My Favorite Sorting Algorithm
-`<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Fizz Buzz</title>
-<script>
-
+`
+````
 function fizzbuzz() {
 	var display = document.getElementById('display');
 	var displayHTML = "";
@@ -29,7 +24,8 @@ function fizzbuzz() {
 	}
 	display.innerHTML = displayHTML;
 }
-
+`````
+`
 </script>
 
 </head>
@@ -40,7 +36,7 @@ function fizzbuzz() {
 </div>
 </body>
 
-</html>`
+</html> `
 ## My Favorite Kind Of Airplane
 
 ![](https://www.piper.com/wp-content/uploads/2019/01/19_Seneca_A2A_Ocean-Sunrise-1650x1100.jpg)
