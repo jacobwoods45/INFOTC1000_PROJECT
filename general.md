@@ -32,3 +32,4 @@ function fizzbuzz() {
 ## My Favorite Kind Of Airplane
 
 ![](https://www.piper.com/wp-content/uploads/2019/01/19_Seneca_A2A_Ocean-Sunrise-1650x1100.jpg)
+> You can find more about it here on [Wikipedia](https://en.wikipedia.org/wiki/Piper_PA-30_Twin_Comanche)
