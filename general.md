@@ -16,76 +16,56 @@ Hi there! My name is Jacob Woods and I am a IT freshman at the Univeristy of Mis
 ## My Favorite Sorting Algorithm
 `
 
-`using` `namespace` `std;`
+void bubbleSort(int array[], int size) {
 
-`void` `swap(``int` `*xp,` `int` `*yp)`
 
-`{`
+  for (int step = 0; step < size - 1; ++step) {
+    
+  
+    int swapped = 0;
+    
+    for (int i = 0; i < size - step - 1; ++i) {
+      
 
-`int` `temp = *xp;`
+      if (array[i] > array[i + 1]) {
 
-`*xp = *yp;`
+        int temp = array[i];
+        array[i] = array[i + 1];
+        array[i + 1] = temp;
+        
+        swapped = 1;
+      }
+    }
+    
 
-`*yp = temp;`
+    if (swapped == 0) {
+      break;
+    }
+    
+  }
+}
 
-`}`
+// print array
+void printArray(int array[], int size) {
+  for (int i = 0; i < size; ++i) {
+    printf("%d  ", array[i]);
+  }
+  printf("\n");
+}
 
-`// A function to implement bubble sort`
 
-`void` `bubbleSort(``int` `arr[],` `int` `n)`
+int main() {
+  int data[] = {-2, 45, 0, 11, -9};
 
-`{`
+  int size = sizeof(data) / sizeof(data[0]);
 
-`int` `i, j;`
+  bubbleSort(data, size);
+  
+  printf("Sorted Array in Ascending Order:\n");
+  printArray(data, size);
+}
 
-`for` `(i = 0; i < n-1; i++)`
-
-`// Last i elements are already in place`
-
-`for` `(j = 0; j < n-i-1; j++)`
-
-`if` `(arr[j] > arr[j+1])`
-
-`swap(&arr[j], &arr[j+1]);`
-
-`}`
-
-`/* Function to print an array */`
-
-`void` `printArray(``int` `arr[],` `int` `size)`
-
-`{`
-
-`int` `i;`
-
-`for` `(i = 0; i < size; i++)`
-
-`cout << arr[i] <<` `" "``;`
-
-`cout << endl;`
-
-`}`
-
-`// Driver code`
-
-`int` `main()`
-
-`{`
-
-`int` `arr[] = {64, 34, 25, 12, 22, 11, 90};`
-
-`int` `n =` `sizeof``(arr)/``sizeof``(arr[0]);`
-
-`bubbleSort(arr, n);`
-
-`cout<<``"Sorted array: \n"``;`
-
-`printArray(arr, n);`
-
-`return` `0;`
-
-`}`
-
+`
 
 
 ## My Favorite Kind Of Airplane
