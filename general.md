@@ -36,16 +36,9 @@ void bubbleSort(int array[], int size) {
         swapped = 1;
       }
     }
-    
+   
 
-    if (swapped == 0) {
-      break;
-    }
-    
-  }
-}
 
-// print array
 void printArray(int array[], int size) {
   for (int i = 0; i < size; ++i) {
     printf("%d  ", array[i]);
@@ -64,7 +57,6 @@ int main() {
   printf("Sorted Array in Ascending Order:\n");
   printArray(data, size);
 }
-
 `
 
 
