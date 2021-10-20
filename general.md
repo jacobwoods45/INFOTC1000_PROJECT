@@ -1,5 +1,7 @@
 # Hi There! My Name is Jacob Woods
 
+[me!](me.jpg)
+
 Hi there! My name is Jacob Woods and I am a IT freshman at the Univeristy of Missouri in Columbia, Missouri. **I abosolutely love coding** In addition I have an interest in **aviation**. 
 
 > Feel free to keep reading if you would like to find out more!
@@ -13,8 +15,8 @@ Hi there! My name is Jacob Woods and I am a IT freshman at the Univeristy of Mis
 3. Smoked Salmon
 4. Iced Coffee 
 
-## My Favorite Sorting Algorithm
-`
+## FIZZBUZZ FUNCTION 
+
 ````
 function fizzbuzz() {
 	var display = document.getElementById('display');
@@ -25,18 +27,6 @@ function fizzbuzz() {
 	display.innerHTML = displayHTML;
 }
 `````
-`
-</script>
-
-</head>
-
-<body onload="fizzbuzz()">
-<div id="display">
-
-</div>
-</body>
-
-</html> `
 ## My Favorite Kind Of Airplane
 
 ![](https://www.piper.com/wp-content/uploads/2019/01/19_Seneca_A2A_Ocean-Sunrise-1650x1100.jpg)
